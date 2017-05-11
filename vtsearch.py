@@ -52,7 +52,7 @@ def virus_total_api(destination_address, source_address, search_type_vt, source_
 	C&C, shell_reverse, spyware.
 	"""
 	
-	api_key = "b1f50e1f16171fac294925e7de6474d0f7221772d32ce8c8e388f9fb738a32c6"
+	api_key = "PONGA SU LLAVE VT AQUI"
 	url_data = urllib.parse.urlencode({"ip":search_type_vt,"apikey":api_key})
 	url_search = "https://www.virustotal.com/vtapi/v2/ip-address/report?%s" %url_data
 
